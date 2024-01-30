@@ -11,7 +11,7 @@ In this project, we were taksed with analyzing why an employee may be likely to 
 There can be a good reason for an employee wanting to leave the company, but it may also be caused by some underlying problem with the company, such as bad management, uncomfortable wrokplace, etc. Our goal is to understand whther there are such factors that make an employee leaving the company likely.
 
 ### Data  
-Our data contains entries for 15000 employees. We cremoved approximately 3000 duplicated entries, but we kept outliers which are not a problem for the model we chose later. Only around 83% of the employees in the dataset did not leave, which is imbalanced, but not extremely.    
+Our data contains entries for 15000 employees. We removed approximately 3000 duplicated entries, but we kept outliers which are not a problem for the model we chose later. Only around 83% of the employees in the dataset did not leave, which is imbalanced, but not extremely.    
 We visualized correlations between individual prpoerties and whether an employee left the company or not using barplots and pie charts. For example, the average satsfaction level of employees who left was much smaller, and those who left received much less promotions on average.   
 ![left promotion barplot](todo enter link)  
 This way we chose _tenure_, _promotion received_ and _satisfaction level_ as the most important factors and proceeded to build a model as a first attempt.
